@@ -8,15 +8,16 @@ import node from "../assets/other/tools/node.png";
 import react from "../assets/other/tools/react.png";
 import cpp from "../assets/other/tools/cpp.png";
 import sql from "../assets/other/tools/sql.png";
-import cloud from "../assets/other/tools/cloud.png";
-import python from "../assets/other/tools/python.png"
+// import cloud from "../assets/other/tools/cloud.png";
+import oops from "../assets/other/tools/oops.jpg"
 import tailwind from "../assets/other/tools/tailwind.png";
+import expressjs from "../assets/other/tools/expressjs.png"
 const Experiences = () => {
     const techs=[
         {
             id:1,
             src:html,
-            title:"html",
+            title:"HTML",
             style:"shadow-orange-500"
         },
         {
@@ -40,7 +41,7 @@ const Experiences = () => {
         {
             id:5,
             src:firebase,
-            title:"firebase",
+            title:"FIREBASE",
             style:"shadow-orange-500"
         },
         {
@@ -63,34 +64,34 @@ const Experiences = () => {
         },
         {
             id:9,
-            src:python,
-            title:"PYTHON",
+            src:oops,
+            title:"OOPS",
             style:"shadow-orange-500"
         },
         {
             id:10,
             src:cpp,
-            title:"cpp",
+            title:"CPP",
             style:"shadow-orange-500"
         },
         {
             id:11,
             src:sql,
-            title:"sql",
+            title:"SQL",
             style:"shadow-orange-500"
         },
         {
             id:12,
-            src:cloud,
-            title:"cloud",
-            style:"shadow-orange-500"
+            src:expressjs,
+            title:"EXPRESSJS",
+            style:"shadow-orange-800"
         },
     ]
   return (
-    <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full lg:h-screen">
+    <div name="skill" className=" bg-gradient-to-b from-gray-800 to-black w-full lg:h-screen">
       <div className="max-w-screen-lg mx-auto px-4 flex flex-col justify-center w-full h-full text-white">
         <div >
-            <p className="text-4xl font-bold border-b-4 border-gray-500 px-1 inline">Experince</p>
+            <p className="text-4xl font-bold border-b-4 border-gray-500 px-1 inline">Skill</p>
             <p className="py-4">This are the technologies I've worked with</p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center md:py-2 px-12 sm:px-0">

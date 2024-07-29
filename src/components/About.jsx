@@ -14,13 +14,15 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-15">
-          "I am an undergraduate student at National Institite of Technology
-          Patna, pursuing B-tech in Electrical  Engineering. I am a
+          "I am an undergraduate student at National Institute of Technology
+          Patna, pursuing B-tech in Electrical Engineering. I am a
           coding enthusiast with strong knowledge of Data Structures and
           Algorithms and also having experience in web development. My interests
-          include competitive programming, Public speaking, dairy-writing and
-          teaching. Strive to be the best version of myself everyday."
+          include competitive programming, public speaking, and learning about new technologies.
+          I strive to be the best version of myself every day."
         </p>
+        
+        
       </div>
     </div>
   );
