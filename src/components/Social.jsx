@@ -12,7 +12,7 @@ const Social = () => {
           LinkedIn <FaLinkedin size={30} />{" "}
         </>
       ),
-      href: "https://www.linkedin.com/in/abhishek-maurya-0964b522a",
+      href: "https://www.linkedin.com/in/neeraj-bind-828394242",
       style: "rounded-tr-md",
     },
     {
@@ -23,7 +23,7 @@ const Social = () => {
           GitHub <FaGithub size={30} />{" "}
         </>
       ),
-      href: "https://github.com/AbhishekMaurya2002",
+      href: "https://github.com/neeraj1504",
       style: "rounded-tr-md",
     },
     {
@@ -34,7 +34,7 @@ const Social = () => {
           Mail <HiOutlineMail size={30} />{" "}
         </>
       ),
-      href: "https://gmail.com",
+      href: "https://mail.google.com/mail/u/0/#inbox",
       style: "rounded-tr-md",
     },
     {
@@ -45,7 +45,7 @@ const Social = () => {
           Resume <BsFillPersonLinesFill size={30} />{" "}
         </>
       ),
-      href: "https://drive.google.com/file/d/1AHO_tgL8e7Y1fbloMFx_w103bY2yK2D1/view?usp=drivesdk",
+      href: "https://drive.google.com/file/d/1AjOYngUhJdct37bQiS7XYwZQKRbQuX3Q/view?usp=drivesdk",
       style: "rounded-tr-md",
       download: true,
     },

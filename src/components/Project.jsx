@@ -5,51 +5,40 @@ import React from 'react'
 // import reactSmooth from "../assets/other/portfolio/reactSmooth.jpg"
 // import reactWeather from "../assets/other/portfolio/reactWeather.jpg"
 // import byteverse from "../assets/other/portfolio/byteverse.png"
-import chatapp from "../assets/other/project/chatapp.png";
-import doctorappointment from "../assets/other/project/doctor-appointment.png";
-import spotify from "../assets/other/project/spotify.png";
-// import byteverse from "../assets/other/project/byteverse.png";
-import ecommerce from "../assets/other/project/ecommerce.png";
-import currency from "../assets/other/project/currency converter.png";
+import SwiftCart from "../assets/other/project/SwiftCart.png";
+import testonomial from "../assets/other/project/testonomial.png";
+import Tic_Tac_Toe from "../assets/other/project/Tic_Tac_Toe.png";
+
+
 
 
 const Portfolio = () => {
     const portfolios=[
         {
             id:1,
-            src:chatapp
+            src:SwiftCart
         },
         {
             id:2,
-            src:doctorappointment
+            src:testonomial
         },
-        // {
-        //     id:3,
-        //     src:byteverse
-        // },
+        
        
         {
             id:4,
-            src:spotify
+            src:Tic_Tac_Toe
         },
-        {
-            id:5,
-            src:currency
-        },
-        {
-            id:6,
-            src:ecommerce
-        },
+       
     ]
 
     
   return (
     <div name="project"
-    className="  pb-8 bg-gradient-to-b from-black to-gray-800 w-full 
-    text-white md:h-screen ">
-        <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+    className="   bg-gradient-to-b from-black to-gray-800 w-full 
+    text-white h-screen ">
+        <div className=" max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full">
            <div className="  pb-2">
-               <p className="text-4xl font-bold inline mt-15
+               <p className="text-4xl font-bold inline mt-10
                border-b-4 border-gray-500">Project</p>
                <p className="py-6">Checkout some of my works</p>
            </div>
