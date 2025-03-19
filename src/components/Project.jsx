@@ -49,8 +49,8 @@ const Portfolio = () => {
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                                 <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
                                 <div className="flex items-center justify-center">
-                                    <button className="w-1/2 px-6 py-3  duration-200 hover:scale-105">Demo</button>
-                                    <button className="w-1/2 px-6 py-3  duration-200 hover:scale-105">Code</button>
+                                    <button className="w-1/2 px-6 py-3  duration-200 hover:scale-105"><a href='https://revised-shoping-cart.vercel.app/'>Demo</a></button>
+                                    <button className="w-1/2 px-6 py-3  duration-200 hover:scale-105"><a href='https://github.com/neeraj1504/revised_shoping_cart'>Code</a></button>
                                 </div>
                     </div>
                    
